@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla String-Escape
 Name:		perl-String-Escape
 Version:	1998.1204
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/String/String-Escape-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/String/String-Escape-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-Escape - Registry of string functions, including backslash escapes.
+String-Escape - Registry of string functions, including backslash
+escapes.
 
 %description -l pl
 Modu³ perla String-Escape.
