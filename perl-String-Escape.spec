@@ -28,7 +28,7 @@ w tym cytowania przy pomocy odwrotnych uko¶ników.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
