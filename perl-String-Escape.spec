@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Escape
-%include	/usr/lib/rpm/macros.perl
 Summary:	String-Escape perl module
 Summary(pl):	Modu³ perla String-Escape
 Name:		perl-String-Escape
 Version:	1998.1204
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ escapes.
 Modu³ perla String-Escape.
 
 %prep
-%setup -q -n String-Escape-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
