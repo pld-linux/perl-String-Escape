@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Escape
+%define		pdir	String
+%define		pnam	Escape
 Summary:	String::Escape - registry of string functions, including backslash escapes
 Summary(pl):	String::Escape - zestaw funkcji do obróbki ³añcuchów, w tym cytowania przy pomocy odwrotnego uko¶nika
 Name:		perl-String-Escape
