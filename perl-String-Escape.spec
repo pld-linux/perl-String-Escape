@@ -3,7 +3,7 @@ Summary:	String-Escape perl module
 Summary(pl):	Modu³ perla String-Escape
 Name:		perl-String-Escape
 Version:	1998.1204
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
