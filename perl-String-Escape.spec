@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Escape
-Summary:	String-Escape perl module
-Summary(pl):	Modu³ perla String-Escape
+Summary:	String::Escape perl module
+Summary(pl):	Modu³ perla String::Escape
 Name:		perl-String-Escape
 Version:	1998.1204
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-Escape - Registry of string functions, including backslash
+String::Escape - Registry of string functions, including backslash
 escapes.
 
 %description -l pl
-Modu³ perla String-Escape.
+Modu³ perla String::Escape.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
