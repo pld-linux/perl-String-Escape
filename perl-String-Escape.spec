@@ -4,8 +4,8 @@
 Summary:	String::Escape perl module
 Summary(pl):	Modu³ perla String::Escape
 Name:		perl-String-Escape
-Version:	1998.1204
-Release:	8
+Version:	2002.001
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
