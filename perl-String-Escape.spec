@@ -9,8 +9,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -19,7 +19,8 @@ String::Escape - Registry of string functions, including backslash
 escapes.
 
 %description -l pl
-Modu³ perla String::Escape.
+Modu³ perla String::Escape - zestaw funkcji do obróbki ci±gów znaków,
+w tym cytowania przy pomocy odwrotnych uko¶ników.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -33,13 +34,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %{perl_sitelib}/String/Escape.pm
 %{_mandir}/man3/*
