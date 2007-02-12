@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Escape
 Summary:	String::Escape - registry of string functions, including backslash escapes
-Summary(pl):	String::Escape - zestaw funkcji do obróbki ³añcuchów, w tym cytowania przy pomocy odwrotnego uko¶nika
+Summary(pl.UTF-8):   String::Escape - zestaw funkcji do obrÃ³bki Å‚aÅ„cuchÃ³w, w tym cytowania przy pomocy odwrotnego ukoÅ›nika
 Name:		perl-String-Escape
 Version:	2002.001
 Release:	4
@@ -27,12 +27,12 @@ applying and removing C/Unix-style backslash escapes like \n and \t,
 wrapping and removing double-quotes, and truncating to fit within a
 desired length.
 
-%description -l pl
-Modu³ Perla String::Escape udostêpnia elastyczny interfejs wywo³añ
-pewnych czêsto u¿ywanych funkcji konwersji ³añcuchów tekstowych,
-uwzglêdniaj±c funkcje do stosowania i usuwania C/uniksowych cytowañ za
-pomoc± odwrotnego uko¶nika, jak \n i \t, dodawanie i usuwanie
-cudzys³owów i skracanie, aby zmie¶ciæ siê w okre¶lonej d³ugo¶ci.
+%description -l pl.UTF-8
+ModuÅ‚ Perla String::Escape udostÄ™pnia elastyczny interfejs wywoÅ‚aÅ„
+pewnych czÄ™sto uÅ¼ywanych funkcji konwersji Å‚aÅ„cuchÃ³w tekstowych,
+uwzglÄ™dniajÄ…c funkcje do stosowania i usuwania C/uniksowych cytowaÅ„ za
+pomocÄ… odwrotnego ukoÅ›nika, jak \n i \t, dodawanie i usuwanie
+cudzysÅ‚owÃ³w i skracanie, aby zmieÅ›ciÄ‡ siÄ™ w okreÅ›lonej dÅ‚ugoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
