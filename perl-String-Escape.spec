@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Escape
 Summary:	String::Escape - registry of string functions, including backslash escapes
-Summary(pl.UTF-8):   String::Escape - zestaw funkcji do obróbki łańcuchów, w tym cytowania przy pomocy odwrotnego ukośnika
+Summary(pl.UTF-8):	String::Escape - zestaw funkcji do obróbki łańcuchów, w tym cytowania przy pomocy odwrotnego ukośnika
 Name:		perl-String-Escape
 Version:	2002.001
 Release:	4
