@@ -9,7 +9,7 @@ Summary:	String::Escape - registry of string functions, including backslash esca
 Summary(pl.UTF-8):	String::Escape - zestaw funkcji do obróbki łańcuchów, w tym cytowania przy pomocy odwrotnego ukośnika
 Name:		perl-String-Escape
 Version:	2002.001
-Release:	4
+Release:	5
 # same as perl (README says Artistic)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
