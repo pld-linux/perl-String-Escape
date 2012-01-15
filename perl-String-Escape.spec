@@ -8,13 +8,13 @@
 Summary:	String::Escape - registry of string functions, including backslash escapes
 Summary(pl.UTF-8):	String::Escape - zestaw funkcji do obróbki łańcuchów, w tym cytowania przy pomocy odwrotnego ukośnika
 Name:		perl-String-Escape
-Version:	2002.001
-Release:	5
+Version:	2010.002
+Release:	1
 # same as perl (README says Artistic)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	764ff01a8f96632af1742e9637defaf6
+# Source0-md5:	f48000fbade3f46e1a37a43f12c7f01a
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
