@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	String
 %define		pnam	Escape
+%include	/usr/lib/rpm/macros.perl
 Summary:	String::Escape - registry of string functions, including backslash escapes
 Summary(pl.UTF-8):	String::Escape - zestaw funkcji do obróbki łańcuchów, w tym cytowania przy pomocy odwrotnego ukośnika
 Name:		perl-String-Escape
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f48000fbade3f46e1a37a43f12c7f01a
+URL:		http://search.cpan.org/dist/String-Escape/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
